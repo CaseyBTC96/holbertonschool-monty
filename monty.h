@@ -77,3 +77,36 @@ int get_builtin(char *token, stack_t **stack, unsigned int line_number);
 /* builtins functions */
 void push(stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
+
+
+
+
+
+
+
+
+/*error*/
+void stderr_int(unsigned int line_number);
+
+
+
+
+
+/* TEST F */
+
+int _isdigit();
+void free_dlistint(stack_t *stack);
+void free_globalvars(void);
+
+
+
+
+
+
+
+
+
+
+
+
+#endif
