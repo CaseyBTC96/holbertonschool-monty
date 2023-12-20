@@ -1,6 +1,6 @@
 #include "monty.h"
 
-/*
+/**
  * push - Add node to the stack
  * @stack: head of linkedList
  * @line_number: line number of the instruction
