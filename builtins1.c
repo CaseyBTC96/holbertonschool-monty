@@ -16,7 +16,7 @@ void push(stack_t **stack, unsigned int line_number)
 		free_dlistint(*stack);
 		stderr_int(line_number);
 	}
-	if  (!_isdigit()  || stack == NULL)
+	if  i(!_isdigit() || stack == NULL)
 	{
 		free_dlistint(*stack);
 		stderr_int(line_number);
