@@ -97,7 +97,7 @@ void rotrl(stack_t **stack, unsigned int line_number);
 
 
 /*error*/
-void stderr_int(unsigned int line_number);
+void stderr_usage(void);
 void stderr_malloc(void);
 void stderr_fopen(char *fd);
 void stderr_int(unsigned int line_number);
